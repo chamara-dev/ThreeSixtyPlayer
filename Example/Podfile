@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ThreeSixtyPlayer_Example' do
+  pod 'ThreeSixtyPlayer', :path => '../'
+
+  target 'ThreeSixtyPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
